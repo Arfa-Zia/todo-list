@@ -1,0 +1,33 @@
+:root {
+    --bg-color: rgb(0, 255, 200);
+
+}
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body {
+    background-color: var(--bg-color);
+}
+h1 {
+    background-color: white;
+    border: 5px solid var(--bg-color);
+    border-radius: 10px;
+    padding: 40px;
+    text-align: center;
+}
+main{
+    display: grid;
+    grid-template-areas: 2 / 2;
+
+}
+
+#datesections {
+    grid-area: 1 / 1 / 1 / 1;
+}
+#addproject {
+    grid-area: 2 / 1 / 2 / 1;
+}
+#tasks {
+    grid-area: 1 / 2 / 2 / 2 ;
+}
